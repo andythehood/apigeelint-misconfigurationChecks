@@ -10,6 +10,8 @@ This repo contains a set of [External Plugins](https://github.com/apigee/apigeel
 
 ## Rules
 
+The following rules are currently available:
+
 | Code     | Name                            | Description                                                                                                                                                                                        |
 | -------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | EX-BN001 | MisconfigurationCheckAuth       | Check for the presence of `OAuthV2` and/or `VerifyAPIKey` policies in each Proxy Endpoint's PreFlow                                                                                                |
@@ -39,7 +41,7 @@ apigeelint -x ./externalPlugins -s path/to/your/apiproxy -f table.js
 
 #### VS Code
 
-If you are using VScode, then can also use these plugins with the [Apigeelint 4 VS Code](https://marketplace.visualstudio.com/items?itemName=andythehood.apigeelint4vscode) extension by selecting the following extension setting:
+If you are using VScode, then you can also use these plugins with the [Apigeelint 4 VS Code](https://marketplace.visualstudio.com/items?itemName=andythehood.apigeelint4vscode) extension by selecting the following extension setting:
 
 - `apigeelint.externalPluginsDirectory`: Full path to an external plugins directory (default: none)
 
@@ -64,7 +66,6 @@ responses are on an ad-hoc, volunteer basis.
 If you simply have questions, we recommend asking on the [Apigee
 forum](https://www.googlecloudcommunity.com/gc/Apigee/bd-p/cloud-apigee/) on
 GoogleCloudCommunity. Apigee experts regularly check that forum.
-checked by Apigee experts.
 
 Apigee customers should use [formal support channels](https://cloud.google.com/apigee/support) for Apigee product related concerns.
 
@@ -75,6 +76,4 @@ and is licensed under the [Apache 2.0 License](LICENSE).
 
 ## Disclaimer
 
-This tool is open-source software. It is not an officially supported Google
-product. It is not a part of Apigee, or any other officially supported Google
-Product.
+These plugins do not form part of Apigee or any other officially supported Google Product.
